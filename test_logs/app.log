@@ -1,0 +1,26 @@
+2022-01-05 03:38:51 PM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-05 03:38:51 PM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-05 03:38:51 PM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-05 03:38:51 PM INFO  [base.BaseTest] ---------Test method: <test_cases.Step1SubmitTest>------------------------------------------------
+2022-01-05 03:38:51 PM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.Step1SubmitTest_Wed_20220105_033851.html>
+2022-01-05 03:38:51 PM INFO  [test_cases.Step1SubmitTest] --Running 'beforeClass()' -> setUp()
+2022-01-05 03:38:51 PM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-05 03:38:51 PM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-05 03:38:51 PM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-05 03:38:53 PM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-05 03:38:53 PM INFO  [base.BaseTest] --Webdriver is created
+2022-01-05 03:38:53 PM INFO  [base.BaseTest] --Maximize browser
+2022-01-05 03:38:53 PM INFO  [utils.CustomListeners] --Test start
+2022-01-05 03:38:53 PM INFO  [test_cases.Step1SubmitTest] --Test Step 1 screen submit success
+2022-01-05 03:38:53 PM INFO  [PageObjects.Step1Page] --Go to Step1 page
+2022-01-05 03:38:57 PM INFO  [PageObjects.Step1Page] --Enter value for Step 1
+2022-01-05 03:39:00 PM INFO  [base.BaseTest] --Verify number of searched result
+2022-01-05 03:39:00 PM INFO  [base.BaseTest] ----Actual: true
+2022-01-05 03:39:00 PM INFO  [base.BaseTest] ----Expected: true
+2022-01-05 03:39:05 PM INFO  [utils.CustomListeners] --Test success
+2022-01-05 03:39:05 PM INFO  [test_cases.Step1SubmitTest] --Running 'afterClass()' -> clean up test
+2022-01-05 03:39:05 PM INFO  [test_cases.Step1SubmitTest] --Driver quit
+2022-01-05 03:39:05 PM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-05 03:39:05 PM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-05 03:39:05 PM INFO  [utils.CustomListeners] --Test finish
+2022-01-05 03:39:05 PM INFO  [base.BaseTest] --Running 'afterSuite()'
