@@ -2,7 +2,7 @@ This is Web automation test demo project
 
 Github link : https://github.com/phuocthanhpt/wltest
 
-main/java/PageObject contains Page Object classed based on Page Object Model
+main/java/PageObject contains Page Object classes based on Page Object Model
 
 test/java/test_cases contains 2 test cases classes.
 
