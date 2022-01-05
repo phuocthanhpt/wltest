@@ -75,6 +75,31 @@ public class Step1SubmitTest extends BaseTest {
     }
 
     @Test
+    @Parameters({"test_url"})
+    public void tc_emailValidationTest(String url){
+        try {
+            log.info("Test Step 1 screen: invalid email check");
+
+            step1Page.accessSignUpPersonalPage(url);
+            step1Page.enterEmail("sadfasdf");
+            step1Page.clickStep1NextButton();
+
+            // Verify Step1 submit success, Step 2 screen appear
+            CustomListeners.testReport.get().log(Status.INFO, "Test Step 1 screen: invalid email check");
+            verifyEquals(true, step1Page.isEmailInvalid());
+
+            Thread.sleep(5000);
+
+        } catch (Exception e) {
+            finalTestResult = false;
+            e.printStackTrace();
+            String error = "tc_loginSuccessfulWithValidUser - Error occurs: " + e.getMessage();
+            log.error(error);
+            CustomListeners.testReport.get().log(Status.FAIL, error);
+        }
+    }
+
+    @Test
     @Parameters({"test_url", "firstName", "lastName", "email", "month", "day", "year"})
     public void tc_step1SubmitTest(String url, String firstName, String lastName, String email,
                                    String month, String day, String year) {

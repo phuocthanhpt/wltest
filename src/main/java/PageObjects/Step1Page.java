@@ -17,6 +17,7 @@ public class Step1Page {
     private By firstName_txtField = By.xpath("//input[@id='firstName']");
     private By lastName_txtField = By.xpath("//input[@id='lastName']");
     private By email_txtField = By.xpath("//input[@id='email']");
+    private By emailError_label = By.xpath("//span[@id='emailError']");
     private By birthMonth_selField = By.xpath("//select[@id='birthMonth']");
     private By birthDay_selField = By.xpath("//select[@id='birthDay']");
     private By birthYear_selField = By.xpath("//select[@id='birthYear']");
@@ -27,34 +28,34 @@ public class Step1Page {
         wait = new WebDriverWait(this.driver, 10L);
     }
 
-    private Step1Page enterFirstName(String firstName){
+    public Step1Page enterFirstName(String firstName){
         wait.until(ExpectedConditions.presenceOfElementLocated(firstName_txtField)).sendKeys(firstName);
         return this;
     }
 
-    private Step1Page enterLastName(String lastName){
+    public Step1Page enterLastName(String lastName){
         wait.until(ExpectedConditions.presenceOfElementLocated(lastName_txtField)).sendKeys(lastName);
         return this;
     }
 
-    private Step1Page enterEmail(String email){
+    public Step1Page enterEmail(String email){
         wait.until(ExpectedConditions.presenceOfElementLocated(email_txtField)).sendKeys(email);
         return this;
     }
 
-    private Step1Page enterBirthMonth(String monthValue){
+    public Step1Page enterBirthMonth(String monthValue){
         Select sMonth = new Select(driver.findElement(birthMonth_selField));
         sMonth.selectByValue(monthValue);
         return this;
     }
 
-    private Step1Page enterBirthDay(String dayValue){
+    public Step1Page enterBirthDay(String dayValue){
         Select sMonth = new Select(driver.findElement(birthDay_selField));
         sMonth.selectByValue(dayValue);
         return this;
     }
 
-    private Step1Page enterBirthYear(String yearValue){
+    public Step1Page enterBirthYear(String yearValue){
         Select sMonth = new Select(driver.findElement(birthYear_selField));
         sMonth.selectByValue(yearValue);
         return this;
@@ -81,5 +82,14 @@ public class Step1Page {
 
         Thread.sleep(1000);
         this.clickStep1NextButton();
+    }
+
+    public boolean isEmailInvalid() {
+        try {
+            driver.findElement(emailError_label);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 }
