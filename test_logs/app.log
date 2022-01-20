@@ -1,33 +1,389 @@
-2022-01-05 03:58:02 PM INFO  [base.BaseTest] --Running 'beforeSuite()'
-2022-01-05 03:58:02 PM INFO  [base.BaseTest] --OS name: windows 10
-2022-01-05 03:58:02 PM INFO  [base.BaseTest] --Run 'beforeTest()'
-2022-01-05 03:58:02 PM INFO  [base.BaseTest] ---------Test method: <test_cases.Step1SubmitTest>------------------------------------------------
-2022-01-05 03:58:02 PM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.Step1SubmitTest_Wed_20220105_035802.html>
-2022-01-05 03:58:02 PM INFO  [test_cases.Step1SubmitTest] --Running 'beforeClass()' -> setUp()
-2022-01-05 03:58:02 PM INFO  [base.BaseTest] --Run on local machine - WebDriver
-2022-01-05 03:58:02 PM INFO  [base.BaseTest] --Set property for Chrome driver
-2022-01-05 03:58:02 PM INFO  [base.BaseTest] --Create Chrome driver
-2022-01-05 03:58:04 PM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
-2022-01-05 03:58:04 PM INFO  [base.BaseTest] --Webdriver is created
-2022-01-05 03:58:04 PM INFO  [base.BaseTest] --Maximize browser
-2022-01-05 03:58:04 PM INFO  [utils.CustomListeners] --Test start
-2022-01-05 03:58:04 PM INFO  [test_cases.Step1SubmitTest] --Test Step 1 screen: invalid email check
-2022-01-05 03:58:04 PM INFO  [PageObjects.Step1Page] --Go to Step1 page
-2022-01-05 03:58:10 PM INFO  [base.BaseTest] --Verify number of searched result
-2022-01-05 03:58:10 PM INFO  [base.BaseTest] ----Actual: true
-2022-01-05 03:58:10 PM INFO  [base.BaseTest] ----Expected: true
-2022-01-05 03:58:15 PM INFO  [utils.CustomListeners] --Test success
-2022-01-05 03:58:15 PM INFO  [utils.CustomListeners] --Test start
-2022-01-05 03:58:15 PM INFO  [test_cases.Step1SubmitTest] --Test Step 1 screen submit success
-2022-01-05 03:58:15 PM INFO  [PageObjects.Step1Page] --Go to Step1 page
-2022-01-05 03:58:17 PM INFO  [PageObjects.Step1Page] --Enter value for Step 1
-2022-01-05 03:58:19 PM INFO  [base.BaseTest] --Verify number of searched result
-2022-01-05 03:58:19 PM INFO  [base.BaseTest] ----Actual: true
-2022-01-05 03:58:19 PM INFO  [base.BaseTest] ----Expected: true
-2022-01-05 03:58:24 PM INFO  [utils.CustomListeners] --Test success
-2022-01-05 03:58:24 PM INFO  [test_cases.Step1SubmitTest] --Running 'afterClass()' -> clean up test
-2022-01-05 03:58:24 PM INFO  [test_cases.Step1SubmitTest] --Driver quit
-2022-01-05 03:58:24 PM INFO  [base.BaseTest] --Run 'afterTest()' method
-2022-01-05 03:58:24 PM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
-2022-01-05 03:58:24 PM INFO  [utils.CustomListeners] --Test finish
-2022-01-05 03:58:25 PM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 08:57:52 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 08:57:52 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 08:57:52 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 08:57:52 AM INFO  [base.BaseTest] ---------Test method: <test_cases.Step1SubmitTest>------------------------------------------------
+2022-01-20 08:57:52 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.Step1SubmitTest_Thu_20220120_085752.html>
+2022-01-20 08:57:52 AM INFO  [test_cases.Step1SubmitTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 08:57:52 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 08:57:52 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 08:57:52 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 08:57:54 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 08:57:54 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 08:57:54 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 08:57:54 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 08:57:54 AM INFO  [test_cases.Step1SubmitTest] --Test Step 1 screen: invalid email check
+2022-01-20 08:57:54 AM INFO  [PageObjects.Step1Page] --Go to Step1 page
+2022-01-20 08:57:59 AM INFO  [base.BaseTest] --Verify number of searched result
+2022-01-20 08:57:59 AM INFO  [base.BaseTest] ----Actual: true
+2022-01-20 08:57:59 AM INFO  [base.BaseTest] ----Expected: true
+2022-01-20 08:58:04 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 08:58:04 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 08:58:04 AM INFO  [test_cases.Step1SubmitTest] --Test Step 1 screen submit success
+2022-01-20 08:58:04 AM INFO  [PageObjects.Step1Page] --Go to Step1 page
+2022-01-20 08:58:05 AM INFO  [PageObjects.Step1Page] --Enter value for Step 1
+2022-01-20 08:58:07 AM INFO  [base.BaseTest] --Verify number of searched result
+2022-01-20 08:58:07 AM INFO  [base.BaseTest] ----Actual: true
+2022-01-20 08:58:07 AM INFO  [base.BaseTest] ----Expected: true
+2022-01-20 08:58:12 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 08:58:12 AM INFO  [test_cases.Step1SubmitTest] --Running 'afterClass()' -> clean up test
+2022-01-20 08:58:12 AM INFO  [test_cases.Step1SubmitTest] --Driver quit
+2022-01-20 08:58:14 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 08:58:14 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 08:58:14 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 08:58:14 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 09:00:33 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 09:00:33 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 09:00:33 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 09:00:33 AM INFO  [base.BaseTest] ---------Test method: <test_cases.Step1SubmitTest>------------------------------------------------
+2022-01-20 09:00:33 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.Step1SubmitTest_Thu_20220120_090033.html>
+2022-01-20 09:00:33 AM INFO  [test_cases.Step1SubmitTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 09:00:33 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 09:00:33 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 09:00:33 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 09:00:34 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 09:00:34 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 09:00:34 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 09:00:35 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 09:00:35 AM INFO  [test_cases.Step1SubmitTest] --Test Step 1 screen: invalid email check
+2022-01-20 09:00:35 AM INFO  [PageObjects.Step1Page] --Go to Step1 page
+2022-01-20 09:00:40 AM INFO  [base.BaseTest] --Verify number of searched result
+2022-01-20 09:00:40 AM INFO  [base.BaseTest] ----Actual: true
+2022-01-20 09:00:40 AM INFO  [base.BaseTest] ----Expected: true
+2022-01-20 09:00:45 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 09:00:45 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 09:00:45 AM INFO  [test_cases.Step1SubmitTest] --Test Step 1 screen submit success
+2022-01-20 09:00:45 AM INFO  [PageObjects.Step1Page] --Go to Step1 page
+2022-01-20 09:00:47 AM INFO  [PageObjects.Step1Page] --Enter value for Step 1
+2022-01-20 09:00:49 AM INFO  [base.BaseTest] --Verify number of searched result
+2022-01-20 09:00:49 AM INFO  [base.BaseTest] ----Actual: true
+2022-01-20 09:00:49 AM INFO  [base.BaseTest] ----Expected: true
+2022-01-20 09:00:54 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 09:00:54 AM INFO  [test_cases.Step1SubmitTest] --Running 'afterClass()' -> clean up test
+2022-01-20 09:00:54 AM INFO  [test_cases.Step1SubmitTest] --Driver quit
+2022-01-20 09:00:55 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 09:00:55 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 09:00:55 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 09:00:55 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 09:11:10 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 09:11:10 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 09:11:10 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 09:11:10 AM INFO  [base.BaseTest] ---------Test method: <test_cases.Step1SubmitTest>------------------------------------------------
+2022-01-20 09:11:10 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.Step1SubmitTest_Thu_20220120_091110.html>
+2022-01-20 09:11:10 AM INFO  [test_cases.Step1SubmitTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 09:11:10 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 09:11:10 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 09:11:10 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 09:11:12 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 09:11:12 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 09:11:12 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 09:11:12 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 09:11:12 AM INFO  [test_cases.Step1SubmitTest] --Test Step 1 screen: invalid email check
+2022-01-20 09:11:12 AM INFO  [PageObjects.Step1Page] --Go to Step1 page
+2022-01-20 09:11:18 AM INFO  [base.BaseTest] --Verify number of searched result
+2022-01-20 09:11:18 AM INFO  [base.BaseTest] ----Actual: false
+2022-01-20 09:11:18 AM INFO  [base.BaseTest] ----Expected: true
+2022-01-20 09:11:24 AM INFO  [test_cases.Step1SubmitTest] --Running 'afterClass()' -> clean up test
+2022-01-20 09:11:24 AM INFO  [test_cases.Step1SubmitTest] --Driver quit
+2022-01-20 09:11:25 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 09:11:25 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 09:11:25 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 09:11:25 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 09:12:33 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 09:12:33 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 09:12:33 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 09:12:33 AM INFO  [base.BaseTest] ---------Test method: <test_cases.Step1SubmitTest>------------------------------------------------
+2022-01-20 09:12:34 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.Step1SubmitTest_Thu_20220120_091233.html>
+2022-01-20 09:12:34 AM INFO  [test_cases.Step1SubmitTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 09:12:34 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 09:12:34 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 09:12:34 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 09:12:35 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 09:12:35 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 09:12:35 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 09:12:36 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 09:12:36 AM INFO  [test_cases.Step1SubmitTest] --Test Step 1 screen: invalid email check
+2022-01-20 09:12:36 AM INFO  [PageObjects.Step1Page] --Go to Step1 page
+2022-01-20 09:12:41 AM INFO  [base.BaseTest] --Verify number of searched result
+2022-01-20 09:12:41 AM INFO  [base.BaseTest] ----Actual: true
+2022-01-20 09:12:41 AM INFO  [base.BaseTest] ----Expected: true
+2022-01-20 09:12:46 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 09:12:46 AM INFO  [test_cases.Step1SubmitTest] --Running 'afterClass()' -> clean up test
+2022-01-20 09:12:46 AM INFO  [test_cases.Step1SubmitTest] --Driver quit
+2022-01-20 09:12:47 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 09:12:47 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 09:12:47 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 09:12:47 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 10:58:23 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 10:58:23 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 10:58:23 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 10:58:23 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 10:58:24 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_105823.html>
+2022-01-20 10:58:24 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 10:58:24 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 10:58:24 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 10:58:24 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 10:59:16 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 10:59:16 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 10:59:16 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 10:59:16 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 10:59:16 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_105916.html>
+2022-01-20 10:59:16 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 10:59:16 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 10:59:16 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 10:59:16 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 10:59:18 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 10:59:18 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 10:59:18 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 10:59:18 AM ERROR [utils.CustomListeners] --Test failure
+2022-01-20 10:59:18 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 10:59:18 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 10:59:19 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 10:59:19 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 10:59:19 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:00:15 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:00:15 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:00:15 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:00:15 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:00:15 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_110015.html>
+2022-01-20 11:00:15 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:00:15 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:00:15 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:00:15 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:00:17 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:00:17 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:00:17 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:00:17 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:00:17 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:00:17 AM INFO  [PageObjects.WeatherMapHomePage] --accessWeatherMapPage
+2022-01-20 11:00:23 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 11:00:23 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 11:00:23 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 11:00:24 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 11:00:24 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 11:00:24 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:00:24 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 11:00:53 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:00:53 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:00:53 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:00:53 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:00:54 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_110053.html>
+2022-01-20 11:00:54 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:00:54 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:00:54 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:00:54 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:00:55 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:00:55 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:00:55 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:00:55 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:00:55 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:00:55 AM INFO  [PageObjects.WeatherMapHomePage] --accessWeatherMapPage
+2022-01-20 11:01:02 AM ERROR [test_cases.WeatherMapTest] --tc_loginSuccessfulWithValidUser - Error occurs: element click intercepted: Element <a href="https://openweathermap.org/home/sign_in">...</a> is not clickable at point (1349, 30). Other element would receive the click: <div tabindex="0" aria-label="Loading" class="owm-loader">...</div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TMP', ip: '192.168.244.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\maiph\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d707938cb33b270fb1a5dfb23075451
+2022-01-20 11:01:02 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 11:01:02 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 11:01:02 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 11:01:02 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 11:01:02 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:01:03 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 11:02:09 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:02:09 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:02:09 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:02:09 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:02:09 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_110209.html>
+2022-01-20 11:02:09 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:02:09 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:02:09 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:02:09 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:02:11 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:02:11 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:02:11 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:02:11 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:02:11 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:02:11 AM INFO  [PageObjects.WeatherMapHomePage] --accessWeatherMapPage
+2022-01-20 11:02:20 AM ERROR [test_cases.WeatherMapTest] --tc_loginSuccessfulWithValidUser - Error occurs: element click intercepted: Element <a href="https://openweathermap.org/home/sign_in">...</a> is not clickable at point (1349, 30). Other element would receive the click: <div tabindex="0" aria-label="Loading" class="owm-loader">...</div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TMP', ip: '192.168.244.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\maiph\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62247}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ddcb121f7ea01af07f2e56b096c7f5b
+2022-01-20 11:02:20 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 11:02:20 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 11:02:20 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 11:02:20 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 11:02:20 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:02:21 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 11:04:19 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:04:19 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:04:19 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:04:19 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:04:20 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_110419.html>
+2022-01-20 11:04:20 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:04:20 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:04:20 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:04:20 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:04:21 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:04:21 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:04:21 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:04:21 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:04:21 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:04:21 AM INFO  [PageObjects.LoginPage] --accessLoginPage
+2022-01-20 11:04:59 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:04:59 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:04:59 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:04:59 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:04:59 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_110459.html>
+2022-01-20 11:04:59 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:04:59 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:04:59 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:04:59 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:05:01 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:05:01 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:05:01 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:05:01 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:05:01 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:05:01 AM INFO  [PageObjects.LoginPage] --accessLoginPage
+2022-01-20 11:05:10 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 11:05:10 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 11:05:10 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 11:05:11 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 11:05:11 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 11:05:11 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:05:12 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 11:05:32 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:05:32 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:05:32 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:05:32 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:05:32 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_110532.html>
+2022-01-20 11:05:32 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:05:32 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:05:32 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:05:32 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:05:34 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:05:34 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:05:34 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:05:34 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:05:34 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:05:34 AM INFO  [PageObjects.LoginPage] --accessLoginPage
+2022-01-20 11:05:50 AM ERROR [test_cases.WeatherMapTest] --tc_loginSuccessfulWithValidUser - Error occurs: Expected condition failed: waiting for presence of element located by: By.xpath: ////input[@id='user_password'] (tried for 10 second(s) with 500 milliseconds interval)
+2022-01-20 11:05:50 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 11:05:50 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 11:05:51 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 11:05:51 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 11:05:51 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:05:51 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 11:06:33 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:06:33 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:06:33 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:06:33 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:06:33 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_110633.html>
+2022-01-20 11:06:33 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:06:33 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:06:33 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:06:33 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:06:35 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:06:35 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:06:35 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:06:35 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:06:35 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:06:35 AM INFO  [PageObjects.LoginPage] --accessLoginPage
+2022-01-20 11:06:50 AM ERROR [test_cases.WeatherMapTest] --tc_loginSuccessfulWithValidUser - Error occurs: Expected condition failed: waiting for presence of element located by: By.xpath: ////input[@id='user_password'] (tried for 10 second(s) with 500 milliseconds interval)
+2022-01-20 11:06:50 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 11:06:50 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 11:06:51 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 11:06:51 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 11:06:51 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:06:51 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 11:07:26 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:07:26 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:07:26 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:07:26 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:07:27 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_110726.html>
+2022-01-20 11:07:27 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:07:27 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:07:27 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:07:27 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:07:28 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:07:28 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:07:28 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:07:28 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:07:28 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:07:28 AM INFO  [PageObjects.LoginPage] --accessLoginPage
+2022-01-20 11:07:38 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 11:07:38 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 11:07:38 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 11:07:39 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 11:07:39 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 11:07:39 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:07:39 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 11:08:35 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:08:35 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:08:35 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:08:35 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:08:35 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_110835.html>
+2022-01-20 11:08:35 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:08:35 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:08:35 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:08:35 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:08:37 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:08:37 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:08:37 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:08:37 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:08:37 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:08:37 AM INFO  [PageObjects.LoginPage] --accessLoginPage
+2022-01-20 11:08:49 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 11:08:49 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 11:08:49 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 11:08:49 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 11:08:49 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 11:08:49 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:08:50 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 11:10:05 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:10:05 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:10:05 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:10:05 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:10:05 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_111005.html>
+2022-01-20 11:10:05 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:10:05 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:10:05 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:10:05 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:10:06 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:10:06 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:10:06 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:10:07 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:10:07 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:10:07 AM INFO  [PageObjects.LoginPage] --accessLoginPage
+2022-01-20 11:10:21 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 11:10:21 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 11:10:21 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 11:10:21 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 11:10:21 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 11:10:21 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:10:22 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 11:13:05 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:13:05 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:13:05 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:13:05 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:13:05 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_111305.html>
+2022-01-20 11:13:05 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:13:05 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:13:05 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:13:05 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:13:06 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:13:06 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:13:06 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:13:06 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:13:06 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:13:06 AM INFO  [PageObjects.LoginPage] --accessLoginPage
+2022-01-20 11:13:23 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 11:13:23 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 11:13:23 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 11:13:24 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 11:13:24 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 11:13:24 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:13:24 AM INFO  [base.BaseTest] --Running 'afterSuite()'

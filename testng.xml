@@ -4,9 +4,10 @@
     <listeners>
         <listener class-name="utils.CustomListeners"/>
     </listeners>
-    <parameter name="test_url" value="https://www.utest.com/signup/personal"/>
+
     <parameter name="runMode" value="local"/>
-    <test name="Wizeline Step 1 submit test" enabled="true">
+    <test name="Wizeline Step 1 submit test" enabled="false">
+        <parameter name="test_url" value="https://www.utest.com/signup/personal"/>
         <parameter name="browser" value="chrome"/>
         <parameter name="clearData" value="false"/>
         <parameter name="firstName" value="ThanhMai"/>
@@ -19,9 +20,25 @@
             <class name="test_cases.Step1SubmitTest">
                 <methods>
                     <include name="tc_emailValidationTest"/>
-                    <include name="tc_step1SubmitTest"/>
+<!--                    <include name="tc_step1SubmitTest"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Wizeline Weather Map test" enabled="true">
+        <parameter name="test_url" value="https://openweathermap.org/home/sign_in"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="clearData" value="false"/>
+        <parameter name="username" value="wizetest1@gmail.com"/>
+        <parameter name="password" value="autotest"/>
+        <classes>
+            <class name="test_cases.WeatherMapTest">
+                <methods>
+                    <include name="tc_CreateAPI"/>
                 </methods>
             </class>
         </classes>
     </test>
 </suite>
+

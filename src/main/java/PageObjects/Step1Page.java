@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -23,49 +24,49 @@ public class Step1Page {
     private By birthYear_selField = By.xpath("//select[@id='birthYear']");
     private By step1Next_button = By.xpath("//span[normalize-space()='Next: Location']");
 
-    public Step1Page(WebDriver driver){
+    public Step1Page(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(this.driver, 10L);
     }
 
-    public Step1Page enterFirstName(String firstName){
+    public Step1Page enterFirstName(String firstName) {
         wait.until(ExpectedConditions.presenceOfElementLocated(firstName_txtField)).sendKeys(firstName);
         return this;
     }
 
-    public Step1Page enterLastName(String lastName){
+    public Step1Page enterLastName(String lastName) {
         wait.until(ExpectedConditions.presenceOfElementLocated(lastName_txtField)).sendKeys(lastName);
         return this;
     }
 
-    public Step1Page enterEmail(String email){
+    public Step1Page enterEmail(String email) {
         wait.until(ExpectedConditions.presenceOfElementLocated(email_txtField)).sendKeys(email);
         return this;
     }
 
-    public Step1Page enterBirthMonth(String monthValue){
+    public Step1Page enterBirthMonth(String monthValue) {
         Select sMonth = new Select(driver.findElement(birthMonth_selField));
         sMonth.selectByValue(monthValue);
         return this;
     }
 
-    public Step1Page enterBirthDay(String dayValue){
+    public Step1Page enterBirthDay(String dayValue) {
         Select sMonth = new Select(driver.findElement(birthDay_selField));
         sMonth.selectByValue(dayValue);
         return this;
     }
 
-    public Step1Page enterBirthYear(String yearValue){
+    public Step1Page enterBirthYear(String yearValue) {
         Select sMonth = new Select(driver.findElement(birthYear_selField));
         sMonth.selectByValue(yearValue);
         return this;
     }
 
-    public void clickStep1NextButton(){
+    public void clickStep1NextButton() {
         wait.until(ExpectedConditions.presenceOfElementLocated(step1Next_button)).click();
     }
 
-    public void accessSignUpPersonalPage(String url){
+    public void accessSignUpPersonalPage(String url) {
         log.info("Go to Step1 page");
         driver.get(url);
     }
@@ -91,5 +92,10 @@ public class Step1Page {
         } catch (Exception e) {
             return false;
         }
+    }
+
+    public String getErrorMessage(){
+        WebElement el = driver.findElement(emailError_label);
+        return el.getText();
     }
 }

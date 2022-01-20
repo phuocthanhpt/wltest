@@ -1,7 +1,9 @@
 package test_cases;
 
+import PageObjects.LoginPage;
 import PageObjects.Step1Page;
 import PageObjects.Step2Page;
+import PageObjects.WeatherMapHomePage;
 import base.BaseTest;
 import com.aventstack.extentreports.Status;
 import org.apache.logging.log4j.LogManager;
@@ -13,13 +15,13 @@ import utils.CustomListeners;
 
 import java.util.Arrays;
 
-public class Step1SubmitTest extends BaseTest {
+public class WeatherMapTest extends BaseTest {
 
     private WebDriverWait wait;
     private static final Logger log = LogManager.getLogger();
 
-    private Step1Page step1Page;
-    private Step2Page step2Page;
+    private LoginPage loginPage;
+    private WeatherMapHomePage homePage;
 
     @BeforeClass
     @Parameters({"runMode", "browser"})
@@ -29,8 +31,8 @@ public class Step1SubmitTest extends BaseTest {
             // firstly init web driver and browser
             initWebDriverBrowser(runMode, browser);
             wait = new WebDriverWait(driver, 10);
-            step1Page = new Step1Page(driver);
-            step2Page = new Step2Page(driver);
+            loginPage = new LoginPage(driver);
+            homePage = new WeatherMapHomePage(driver);
 
         } catch (Exception e) {
             log.error("setUp() Error occurs: " + e.getMessage() + "\n StackTrace: " + Arrays.toString(e.getStackTrace()));
@@ -75,45 +77,14 @@ public class Step1SubmitTest extends BaseTest {
     }
 
     @Test
-    @Parameters({"test_url"})
-    public void tc_emailValidationTest(String url){
+    @Parameters({"test_url", "username", "password"})
+    public void tc_CreateAPI(String url, String username, String password) {
         try {
-            log.info("Test Step 1 screen: invalid email check");
-
-            step1Page.accessSignUpPersonalPage(url);
-            step1Page.enterEmail("sadfasdf");
-            step1Page.clickStep1NextButton();
-
-            // Verify Step1 submit success, Step 2 screen appear
-            CustomListeners.testReport.get().log(Status.INFO, "Test Step 1 screen: invalid email check");
-//            verifyEquals(true, step1Page.isEmailInvalid());
-
-            String actualErr = "Enter valid email";
-            verifyEquals(true, step1Page.getErrorMessage().equals(actualErr));
-            Thread.sleep(5000);
-
-        } catch (Exception e) {
-            finalTestResult = false;
-            e.printStackTrace();
-            String error = "tc_loginSuccessfulWithValidUser - Error occurs: " + e.getMessage();
-            log.error(error);
-            CustomListeners.testReport.get().log(Status.FAIL, error);
-        }
-    }
-
-    @Test
-    @Parameters({"test_url", "firstName", "lastName", "email", "month", "day", "year"})
-    public void tc_step1SubmitTest(String url, String firstName, String lastName, String email,
-                                   String month, String day, String year) {
-        try {
-            log.info("Test Step 1 screen submit success");
-
-            step1Page.accessSignUpPersonalPage(url);
-            step1Page.fillStep1Values(firstName, lastName, email, month, day, year);
-
-            // Verify Step1 submit success, Step 2 screen appear
-            CustomListeners.testReport.get().log(Status.INFO, "Test Step 1 screen submit success");
-            verifyEquals(true, step2Page.getStep2Title().equals("Add your address"));
+            log.info("Go to Login screen");
+            loginPage.accessLoginPage(url);
+            loginPage.doLogin(username, password);
+            Thread.sleep(2000);
+            homePage.goToAPIKeysScreen();
 
             Thread.sleep(5000);
 
@@ -124,6 +95,5 @@ public class Step1SubmitTest extends BaseTest {
             log.error(error);
             CustomListeners.testReport.get().log(Status.FAIL, error);
         }
-
     }
 }
