@@ -32,6 +32,7 @@
         <parameter name="clearData" value="false"/>
         <parameter name="username" value="wizetest1@gmail.com"/>
         <parameter name="password" value="autotest"/>
+        <parameter name="newKey" value="thanhtest222"/>
         <classes>
             <class name="test_cases.WeatherMapTest">
                 <methods>

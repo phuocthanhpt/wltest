@@ -387,3 +387,52 @@ Session ID: 5ddcb121f7ea01af07f2e56b096c7f5b
 2022-01-20 11:13:24 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
 2022-01-20 11:13:24 AM INFO  [utils.CustomListeners] --Test finish
 2022-01-20 11:13:24 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 11:22:39 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:22:39 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:22:39 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:22:39 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:22:39 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_112239.html>
+2022-01-20 11:22:39 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:22:39 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:22:39 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:22:39 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:22:41 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:22:41 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:22:41 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:22:41 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:22:41 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:22:41 AM INFO  [PageObjects.LoginPage] --accessLoginPage
+2022-01-20 11:22:56 AM INFO  [test_cases.WeatherMapTest] --Create new key
+2022-01-20 11:23:03 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 11:23:03 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 11:23:03 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 11:23:03 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 11:23:03 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 11:23:03 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:23:04 AM INFO  [base.BaseTest] --Running 'afterSuite()'
+2022-01-20 11:28:36 AM INFO  [base.BaseTest] --Running 'beforeSuite()'
+2022-01-20 11:28:36 AM INFO  [base.BaseTest] --OS name: windows 10
+2022-01-20 11:28:36 AM INFO  [base.BaseTest] --Run 'beforeTest()'
+2022-01-20 11:28:36 AM INFO  [base.BaseTest] ---------Test method: <test_cases.WeatherMapTest>------------------------------------------------
+2022-01-20 11:28:36 AM INFO  [base.BaseTest] --Init report: <TestReport_test_cases.WeatherMapTest_Thu_20220120_112836.html>
+2022-01-20 11:28:36 AM INFO  [test_cases.WeatherMapTest] --Running 'beforeClass()' -> setUp()
+2022-01-20 11:28:36 AM INFO  [base.BaseTest] --Run on local machine - WebDriver
+2022-01-20 11:28:36 AM INFO  [base.BaseTest] --Set property for Chrome driver
+2022-01-20 11:28:36 AM INFO  [base.BaseTest] --Create Chrome driver
+2022-01-20 11:28:37 AM INFO  [base.BaseTest] --'chrome' path: <F:\DA_working\WebAutomationTestWithSelenium\src\test\resources\executables\windows\>
+2022-01-20 11:28:37 AM INFO  [base.BaseTest] --Webdriver is created
+2022-01-20 11:28:37 AM INFO  [base.BaseTest] --Maximize browser
+2022-01-20 11:28:37 AM INFO  [utils.CustomListeners] --Test start
+2022-01-20 11:28:37 AM INFO  [test_cases.WeatherMapTest] --Go to Login screen
+2022-01-20 11:28:37 AM INFO  [PageObjects.LoginPage] --accessLoginPage
+2022-01-20 11:28:52 AM INFO  [test_cases.WeatherMapTest] --Create new key
+2022-01-20 11:28:55 AM INFO  [base.BaseTest] --Verify number of searched result
+2022-01-20 11:28:55 AM INFO  [base.BaseTest] ----Actual: true
+2022-01-20 11:28:55 AM INFO  [base.BaseTest] ----Expected: true
+2022-01-20 11:28:55 AM INFO  [utils.CustomListeners] --Test success
+2022-01-20 11:28:55 AM INFO  [test_cases.WeatherMapTest] --Running 'afterClass()' -> clean up test
+2022-01-20 11:28:55 AM INFO  [test_cases.WeatherMapTest] --Driver quit
+2022-01-20 11:28:56 AM INFO  [base.BaseTest] --Run 'afterTest()' method
+2022-01-20 11:28:56 AM INFO  [base.BaseTest] --Report path: <F:\DA_working\WebAutomationTestWithSelenium\test_reports\>
+2022-01-20 11:28:56 AM INFO  [utils.CustomListeners] --Test finish
+2022-01-20 11:28:56 AM INFO  [base.BaseTest] --Running 'afterSuite()'
