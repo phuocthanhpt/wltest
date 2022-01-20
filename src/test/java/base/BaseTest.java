@@ -8,6 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -23,9 +24,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
@@ -202,6 +201,49 @@ public class BaseTest {
                             .build());
 
             finalTestResult = false;
+        }
+    }
+
+    // get a list of web element based on the locator
+    public static List<WebElement> getElementList(String locator, String type) {
+        type = type.toLowerCase();
+        List<WebElement> elementList = new ArrayList<WebElement>();
+        if (type.equals("id")) {
+            elementList = driver.findElements(By.id(locator));
+        } else if (type.equals("name")) {
+            elementList = driver.findElements(By.name(locator));
+        } else if (type.equals("xpath")) {
+            elementList = driver.findElements(By.xpath(locator));
+        } else if (type.equals("css")) {
+            elementList = driver.findElements(By.cssSelector(locator));
+        } else if (type.equals("classname")) {
+            elementList = driver.findElements(By.className(locator));
+        } else if (type.equals("tagname")) {
+            elementList = driver.findElements(By.tagName(locator));
+        } else if (type.equals("linktext")) {
+            elementList = driver.findElements(By.linkText(locator));
+        } else if (type.equals("partiallinktext")) {
+            elementList = driver.findElements(By.partialLinkText(locator));
+        } else {
+            log.info("Locator type not supported");
+        }
+        if (elementList.isEmpty()) {
+            log.info("Element not found with " + type + ": " + locator);
+
+        } else {
+            log.info("Element found with " + type + ": " + locator);
+        }
+        return elementList;
+    }
+
+    // Check if a web element present on web page
+    public static boolean isElementPresent(String locator, String type) {
+        List<WebElement> elementList = getElementList(locator, type);
+        int size = elementList.size();
+        if (size > 0) {
+            return true;
+        } else {
+            return false;
         }
     }
 
